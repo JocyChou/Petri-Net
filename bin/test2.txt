@@ -1,0 +1,17 @@
+place A 1
+place B 0
+place C 1
+place D 0
+transition T1
+transition T2
+transition T3
+edge A T1
+edge A T3
+edge T2 A
+edge T1 B
+edge B T2
+edge T3 B
+edge T3 C
+edge D T3
+edge C T2
+edge T2 D
